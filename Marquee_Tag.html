@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+         .blink {
+                animation: blinker 1.2s linear infinite;
+                color: rgb(17, 255, 0);
+                font-family: sans-serif;
+            }
+            @keyframes blinker {
+                50% {
+                    opacity: 0.1;
+                }
+            }
+    </style>
+  </head>
+  <body>
+    
+<marquee direction="right" behavior="alternate" style="background-color: purple; color: white; padding: 20px;">
+    <h1>Welcome to Marquee</h1>
+</marquee>
+
+<br> <br> <br> <br> <br>
+
+    <marquee style="background-color: darkorchid; padding: 30px;" direction="right" behaviour="alternate">
+        <h1 class="blink">Welcome to Speedup</h1>
+    </marquee>
+    <marquee behavior="alternate" direction="left" style="background-color: rgb(44, 151, 44);" id="img">
+        
+    </marquee>
+    
+  </body>
+</html>
